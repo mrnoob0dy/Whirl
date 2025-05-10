@@ -1,0 +1,49 @@
+.benefits {
+  padding: 80px 0 120px;
+}
+
+.benefits__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 33px;
+}
+
+.benefits__list-item {
+  padding: 32px 36px 40px 32px;
+  display: flex;
+  flex-direction: column;
+
+  &--yellow {
+    background-color: #faea73;
+  }
+
+  &--blue {
+    background-color: #cceff6;
+  }
+
+  &--pink {
+    background-color: #f7cedc;
+  }
+
+  img {
+    margin-bottom: 8px;
+    width: 55px;
+    aspect-ratio: 1;
+  }
+}
+
+.benefits__list-title {
+  margin-bottom: 11px;
+  font-family: var(--second-family);
+  font-size: 25px;
+  line-height: 125%;
+  letter-spacing: 0.01em;
+  color: var(--color-dark);
+}
+
+.benefits__list-text {
+  font-size: 15px;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+  color: var(--color-dark);
+}
