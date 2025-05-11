@@ -1,0 +1,54 @@
+.tasks {
+  padding: 120px 0;
+}
+
+.tasks__top {
+  max-width: 650px;
+  margin-bottom: 65px;
+}
+
+.tasks__title {
+  margin-bottom: 18px;
+  font-family: var(--second-family);
+  font-size: 42px;
+  line-height: 120%;
+  letter-spacing: 0em;
+  color: var(--color-dark);
+}
+
+.tasks__description {
+  p {
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: var(--color-dark);
+  }
+}
+
+.tasks__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 64px;
+}
+
+.tasks__card-img {
+  margin-bottom: 8px;
+  width: 55px;
+  aspect-ratio: 1;
+}
+
+.tasks__card-title {
+  margin-bottom: 11px;
+  font-family: var(--second-family);
+  font-size: 25px;
+  line-height: 125%;
+  letter-spacing: 0.01em;
+  color: var(--color-dark);
+}
+
+.tasks__card-text {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: var(--color-dark);
+}
