@@ -6,6 +6,12 @@
 .availability__inner {
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 1024px) {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 30px;
+  }
 }
 
 .availability__content {
@@ -21,6 +27,10 @@
   line-height: 120%;
   letter-spacing: 0em;
   color: var(--color-white);
+
+  @media (max-width: 767px) {
+    font-size: 30px;
+  }
 }
 
 .availability__text {
